@@ -92,7 +92,7 @@
 					= <&macro_press &kp LCTRL>
 					, <&macro_tap &kp B>
 					, <&macro_release LCTRL>
-					<&kp O>
+					, <&kp O>
 					;
 			};
 		};
