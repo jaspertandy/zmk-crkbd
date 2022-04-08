@@ -52,12 +52,14 @@
 			};
 		};
 		macros {
-			ZMK_MACRO(vimux_p,
+			vimux_p: vimux_p {
+				label = "VIMUX_P";
+				compatible = "zmk,behavior-macro";
 				wait-ms = <40>;
 				tap-ms = <40>;
 				bindings
 					= <&macro_tap &kp KP_BSLH &kp KP_V &kp KP_P>;
-			)
+			};
 		};
 		keymap {
 				compatible = "zmk,keymap";
