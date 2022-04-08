@@ -92,6 +92,7 @@
 					= <&macro_press &kp LCTRL>
 					, <&macro_tap &kp B>
 					, <&macro_release &kp LCTRL>
+					, <&macro_wait_time 100>
 					, <&kp O>
 					;
 			};
